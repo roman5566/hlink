@@ -1,9 +1,8 @@
 require 'formula'
 
 class Hlink < Formula
-  home "http://github.com/mxcl/hlink"
-  url "http://github.com/mxcl/hlink/downloads/hlink-0.1.tgz"
-  md5 "fjkhsdf"
+  home "http://github.com/mxcl/hlink/"
+  url "#{home}/tarball/0.1"
 
   def install
     system "make"
